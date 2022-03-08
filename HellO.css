@@ -1,3 +1,5 @@
+
+
 p {
   font-size: 2em;
   /* 부모의 2배 수치로 늘린다. */
@@ -19,10 +21,11 @@ div {
   width: 80%;
   height: 100px;
   padding: 20px 20px 20px 20px;
-  border-color: black;
+  border-color: blue;
   border-style: dashed;
   border-top-color: red;
-  border-radius: 10%;
+  border-bottom-color: aqua;
+  border-radius: 20%;
   box-sizing: border-box;
   /* margin: auto; */
   margin: 1%;
