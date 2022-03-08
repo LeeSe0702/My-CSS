@@ -11,6 +11,7 @@ p1 {
 }
 
 body {
+  display: flex;
   font-size: 20pt;
 }
 html {
@@ -19,7 +20,7 @@ html {
 
 div {
   width: 80%;
-  height: 100px;
+  height: 10%;
   padding: 20px 20px 20px 20px;
   border-color: blue;
   border-style: dashed;
@@ -30,3 +31,38 @@ div {
   /* margin: auto; */
   margin: 1%;
 }
+
+
+#linkA,a:link{
+  color: orangered;
+  font-size: 20pt;
+
+}
+#linkB,a:link{
+  color: skyblue;
+  font-size: 20pt;
+}
+
+a:link{
+  color: purple;
+  font-size: 20pt;
+}
+
+
+a:hover{
+  color: blue;
+  font-size: 20pt;
+  text-decoration: none;
+}
+
+a:active{
+  color:green;
+  font-size: 20pt;
+}
+
+a:visited{
+  color:pink;
+  font-size: 30pt;
+  text-decoration: none;
+}
+
