@@ -6,6 +6,7 @@
   font-size: 30px;
   font-weight: bold;
   font-family: sans-serif;
+  width: 80%;
 }
 
 .Subject_2 {
@@ -13,17 +14,41 @@
   color: white;
   margin: 20px;
   padding: 30px 20px 30px;
+  width: 80%;
 }
 
 .Subject_3 {
   background-color: #f1f1f1;
   margin: 20px;
+  padding: 20px;
+  padding-bottom: 5px;
+  width: 80%;
 }
 
 .Subject_3-1 {
   background-color: white;
-  margin: 20px;
+  border-style: solid;
+  border-color: green;
+  border-width: 5px;
+  /* margin: 20px; */
+  border-right-style: none;
+  border-top-style: none;
+  border-bottom-style: none;
+
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 10px;
+}
+
+.Subject_3-2 {
+  background-color: green;
+  color: white;
+  margin-top: 20px;
+  padding: 5px;
+  width: 150px;
+  text-align: center;
 }
 
 li {
+  list-style-type: none;
 }
