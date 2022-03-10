@@ -1,0 +1,29 @@
+.Subject_1 {
+  background-color: skyblue;
+  color: white;
+  text-align: center;
+  margin: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.Subject_2 {
+  background-color: orange;
+  color: white;
+  margin: 20px;
+  padding: 30px 20px 30px;
+}
+
+.Subject_3 {
+  background-color: #f1f1f1;
+  margin: 20px;
+}
+
+.Subject_3-1 {
+  background-color: white;
+  margin: 20px;
+}
+
+li {
+}
