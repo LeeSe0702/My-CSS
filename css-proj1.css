@@ -42,11 +42,22 @@
 
 .Subject_3-2 {
   background-color: green;
-  color: white;
   margin-top: 20px;
   padding: 5px;
   width: 150px;
   text-align: center;
+  font-weight: bold;
+}
+.Subject_3-2 a {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+}
+/* hover 할 때는 :을 바로옆에 안붙히면 적용안됨 */
+.Subject_3-2:active {
+  background-color: pink;
+  color: aqua;
 }
 
 li {
