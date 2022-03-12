@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+.Header{
+    /* 진회색 바탕에 100% width */
+    width: 100%;
+
+    background-color: bisque;
+    font-size: 40px;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    z-index: 999;
+    position: fixed;
+}
+
+.Whole-Window{
+    display: flex;
+    /* margin-top: 50px; */
+    padding-top: 130px;
+    z-index: 900;
+}
+
+.Left-Window{
+    width: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+    z-index: 800;
+    
+    
+}
+
+#Small_Menu{
+    background-color: lightgreen;
+    position: fixed;
+    width: 150px;
+    
+}
+
+#Small_Menu ul{
+    margin: 0;
+    padding: 0;
+}
+
+#Small_Menu li{
+    padding: 10px;
+    list-style: none; 
+}
+
+
+.Right_Window{
+    width: 80%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+.Contents {
+    background-color: lightgrey;
+    margin-bottom: 10px;
+    padding: 5px 5px;
+    
+}
